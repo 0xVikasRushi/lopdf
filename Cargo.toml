@@ -31,7 +31,7 @@ image = { version = "0.25", optional = true }
 indexmap = "2.2.3"
 itoa = "1.0"
 jiff = { version = "0.2", optional = true }
-getrandom = "0.3"
+getrandom = "^0.2.15"
 log = "0.4"
 md-5 = "0.10"
 nom = "8.0"
@@ -64,7 +64,6 @@ chrono = ["dep:chrono"]
 default = ["chrono", "jiff", "rayon", "time"]
 embed_image = ["image"]
 jiff = ["dep:jiff"]
-wasm_js = ["getrandom/wasm_js"]
 serde = ["dep:serde"]
 time = ["dep:time"]
 
